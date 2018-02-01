@@ -1,0 +1,17 @@
+CREATE TABLE [dbo].[booking] (
+    [Id]          INT          IDENTITY (1, 1) NOT NULL,
+    [pnr]         VARCHAR (50) NULL,
+    [name]        VARCHAR (50) NULL,
+    [contact]     VARCHAR (50) NULL,
+    [source]      VARCHAR (50) NULL,
+    [destination] VARCHAR (50) NULL,
+    [date]        DATE         NULL,
+    [time]        TIME (7)     NULL,
+    [totalseats]  VARCHAR (50) NULL,
+    [seatno]      VARCHAR (50) NULL,
+    [amount]      VARCHAR (50) NULL,
+    [status]      VARCHAR (50) NULL,
+    [busid]       VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+

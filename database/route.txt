@@ -1,0 +1,11 @@
+CREATE TABLE [dbo].[route] (
+    [routeid]     INT           IDENTITY (1, 1) NOT NULL,
+    [source]      VARCHAR (50)  NULL,
+    [destination] VARCHAR (50)  NULL,
+    [path]        VARCHAR (250) NULL,
+    [time]        TIME (7)      NULL,
+    [busid]       VARCHAR (50)  NULL,
+    [bustype]     NCHAR (10)    NULL,
+    PRIMARY KEY CLUSTERED ([routeid] ASC)
+);
+

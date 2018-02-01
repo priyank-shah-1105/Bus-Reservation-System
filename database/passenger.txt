@@ -1,0 +1,20 @@
+CREATE TABLE [dbo].[passenger] (
+    [user_id]     INT          IDENTITY (1, 1) NOT NULL,
+    [username]    VARCHAR (50) NULL,
+    [password]    VARCHAR (50) NULL,
+    [confirmpass] VARCHAR (50) NULL,
+    [firstname]   VARCHAR (50) NULL,
+    [middlename]  VARCHAR (50) NULL,
+    [lastname]    VARCHAR (50) NULL,
+    [state]       VARCHAR (50) NULL,
+    [city]        VARCHAR (50) NULL,
+    [birth]       DATE         NULL,
+    [gender]      VARCHAR (50) NULL,
+    [address]     VARCHAR (50) NULL,
+    [pincode]     INT          NULL,
+    [phoneno]     VARCHAR (50) NULL,
+    [email]       VARCHAR (50) NULL,
+    [country]     VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([user_id] ASC)
+);
+

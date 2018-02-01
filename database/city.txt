@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[city] (
+    [cityid]   INT          IDENTITY (1, 1) NOT NULL,
+    [cityname] VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([cityid] ASC)
+);
+
